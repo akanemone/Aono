@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ヒラギノ明朝 ProN";
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background-image: url(img/img01.png);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 140px;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+}
+
+.list-item {
+  list-style: none;
+  padding: 25px;
+}
+
+.main-text {
+  width: 100%;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 45px;
+}
+
+.contents {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contents h4 {
+  font-size: 35px;
+  text-align: center;
+  padding: 60px;
+  font-weight: 400;
+}
+
+.notice {
+  width: 800px;
+  height: 100px;
+  border-bottom: 1px solid black;
+  margin: 0 auto 20px auto;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: left;
+}
+
+.notice-box {
+  border: 1px solid black;
+  font-size: 12px;
+  margin: 0 15px 15px 15px;
+  padding: 7px;
+  line-height: 100px;
+}
+
+.notice p {
+  line-height: 100px;
+}
+
+.examples {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.example-box {
+  width: 90%;
+  text-align: center;
+}
+
+.example-img {
+  width: 90%;
+}
+
+.example-box h5 {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.example-box p {
+  padding: 10px;
+}
+
+.detail {
+  width: 70%;
+}
+
+.example-index {
+  width: 20%;
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 60px auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #000000;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-img {
+  width: 33.4%;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+  margin: 20px;
+}
+
+.footer-list {
+  list-style: none;
+  color: white;
+  padding: 20px;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  header {
+    height: 400px;
+  }
+  .main-text {
+    font-size: 24px;
+    padding-top: 100px;
+  }
+  .logo img {
+    width: 100px;
+    margin-left: 10px;
+  }
+  .list-item {
+    display: none;
+  }
+  .contents h4 {
+    font-size: 24px;
+  }
+  .notice {
+    width: 100%;
+    display: block;
+  }
+  .date {
+    font-size: 13px;
+    line-height: normal;
+  }
+  .notice-box {
+    font-size: 11px;
+    line-height: normal;
+  }
+  .notice p {
+    line-height: normal;
+  }
+  .news {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .examples {
+    width: 100%;
+    display: block;
+  }
+  .example-box {
+    width: 100%;
+    text-align: center;
+  }
+  .example-img {
+    width: 100%;
+    max-width: 700px;
+  }
+  .example-box h5 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 15px;
+  }
+  .example-box p {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .detail {
+    width: 300px;
+    padding-bottom: 50px;
+  }
+  .example-index {
+    width: 200px;
+    margin: 0 auto 60px;
+  }
+  .images {
+    display: block;
+    font-size: 0;
+  }
+  .footer-img {
+    width: 100%;
+  }
+  .main-footer {
+    display: block;
+    text-align: center;
+  }
+  .footer-logo {
+    margin: 20px auto;
+  }
+  .footer-list {
+    padding: 20px;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+  .main-footer ul {
+    display: block;
+  }
+}
